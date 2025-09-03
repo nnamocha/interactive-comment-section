@@ -105,7 +105,7 @@ const updateDOM =(data)=>{
       <figure class="minus"><img src="./images/icon-minus.svg" alt=""></figure>
     </aside>
     <aside class="Btn mobile">
-          <section class="replyBtn" style="display:${each.user.display.reply} ;">
+          <section class="replyBtn" style="display: none${each.user.display.reply} ;">
             <figure><img src="./images/icon-reply.svg" alt=""></figure>
             <p>Reply</p>
           </section>
